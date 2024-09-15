@@ -1,0 +1,97 @@
+body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0F0F0;
+        }
+
+        /* Estilos para el encabezado y menú de navegación */
+        .header {
+            background-color: #3366CC;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #7898CF;
+            padding: 10px;
+        }
+
+        .nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            background-color: #1A53CC;
+        }
+        .producto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .producto-imagen img {
+            max-width: 300px;
+            height: auto;
+        }
+        
+        .producto-detalles {
+            margin-left: 20px;
+        }
+        
+        .producto-detalles h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .producto-detalles .precio {
+            font-size: 20px;
+            color: rgb(22, 114, 175);
+            margin-bottom: 10px;
+        }
+        
+        .producto-detalles .stock {
+            color: #28b934;
+            margin-bottom: 10px;
+        }
+        
+        .btn-comprar {
+            background-color: #3462c5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .btn-comprar:hover {
+            background-color: #2241bc;
+        }
+        
+        .informacion-producto {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #3366CC;
+            color: white;
+        }
